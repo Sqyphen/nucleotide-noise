@@ -1,7 +1,7 @@
 # Nucleotide Noise
 
-[Static (original) version](https://sqyphen.github.io/nucleotide-noise/index.html)
-[Small motion version (not too large as is currently a resource hug)](https://sqyphen.github.io/nucleotide-noise/variations/motion/index.html)
+-   [Static (original) version](https://sqyphen.github.io/nucleotide-noise/index.html)
+-   [Small motion version (not too large as is currently a resource hug)](https://sqyphen.github.io/nucleotide-noise/variations/motion/index.html)
 
 Saw a data visualisation at an event and wanted to have a go at recreating it.
 
