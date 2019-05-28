@@ -24,4 +24,6 @@ body {
 .nucleotide {
 	display: inline-block;
 	font-size: 15px;
+	opacity: 1;
+	animation: flickerAnimation 4s linear infinite;
 }

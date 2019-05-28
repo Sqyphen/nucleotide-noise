@@ -12,9 +12,6 @@ function init() {
 
 	dnaContainer.innerHTML = "";
 
-	// https://github.com/josephg/noisejs
-	noise.seed(Math.random());
-
 	let i = 0;
 	while (i <= numNucleotides) {
 		addNucleotide(i, dnaContainer);
@@ -23,15 +20,10 @@ function init() {
 }
 
 function addNucleotide(index, parent) {
-	noise.seed(Math.random());
-
-	const value = noise.simplex2(index / 100, index / 100);
 	const newNucleotide = document.createElement("div");
-
 	newNucleotide.classList.add("nucleotide");
 	newNucleotide.setAttribute("data-index", index);
-	//newNucleotide.style.cssText = `opacity:${randomArrayItem(opacitys)};`;
-	newNucleotide.style.cssText = `opacity:${value};`;
+	newNucleotide.style.cssText = `opacity:${randomArrayItem(opacitys)};`;
 	newNucleotide.innerHTML = randomArrayItem(nucleotides);
 	parent.appendChild(newNucleotide);
 }
